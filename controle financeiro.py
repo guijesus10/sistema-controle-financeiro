@@ -4,7 +4,15 @@ cadastro_entrada = 0
 cadastro_despesas = 0
 
 while True:
- operacao_escolhida=input("digite 1 para cadastrar entradas \ndigite 2 para cadastrar despesas \ndigite 3 para consultar suas movimentações\ndigite 4 para consultar o seu resumo financeiro \ndigite 6 para encerrar o programa\n")
+ operacao_escolhida=input("""
+=============== Operações ===============
+1- para cadastrar entradas 
+2- para cadastrar despesas 
+3- para consultar suas movimentações
+4- para consultar o seu resumo financeiro 
+6- para encerrar o programa
+=========================================
+""")
 
  if operacao_escolhida == "1":
   valor=float(input("digite o valor do salario: \n"))
